@@ -1,3 +1,9 @@
+// NAV 的子選單
+import coffee from '@/assets/coffee.jpg'
+import yms from '@/assets/YMS.jpg'
+import omar from '@/assets/OMAR.jpg'
+import art from '@/assets/art.jpg'
+
 const articles = [
   {
     title: '最新文章 Latest Articles',
@@ -111,4 +117,33 @@ const magazine = [
     url: '/latest',
   },
 ];
-export { articles, voice, magazine }
+
+// 輪播圖
+const carouselData = [
+  {
+    tag:'飲食',
+    title:'台北「髒髒咖啡」去哪喝？推薦5間職人級咖啡廳：SunDay酉日、GoodMan、 KiOSK、D23、KITE，享受冰火交融的極致',
+    img: coffee,
+    url: '/latest',
+  },
+  {
+    tag:'風格',
+    title:'陽明山上的美國中世紀現代之夢：YMS by onefifteen 打造新美學聖地，五大空間定義理想生活',
+    img: yms,
+    url: '/latest',
+  },
+  {
+    tag:'醇酒',
+    title:'OMAR威士忌中的台灣風土：液態的島嶼記憶',
+    img: omar,
+    url: '/latest',
+  },
+  {
+    tag:'藝術',
+    title:'2025台北藝術之夏：為什麼選在此刻登場？觀展指南完整解析',
+    img: art,
+    url: '/latest',
+  }
+]
+
+export { articles, voice, magazine, carouselData }

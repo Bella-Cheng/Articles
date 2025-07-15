@@ -56,7 +56,8 @@ const handdleTab = function(tab){
           <li @click="handdleTab('magazine')" class="before:mx-2 before:font-bold before:content-['‧'] cursor-pointer">雜誌</li>
           <li class="before:mx-2 before:font-bold before:content-['‧'] cursor-pointer">VIBES</li>
           <li class="before:mx-2 before:font-bold before:content-['‧'] cursor-pointer">V Shop</li>
-          <li class="bg-[#ffa500] text-[#F8F8F8] rounded-2xl px-2 font-bold mx-2 cursor-pointer">訂閱VERSE雜誌</li>
+          <li class="relative overflow-hidden bg-[#ffa500] text-[#F8F8F8] rounded-2xl px-2 font-bold mx-2 cursor-pointer">
+            <span>訂閱VERSE雜誌</span></li>
         </ul>
       </div>
       <div class="flex py-2 items-center cursor-pointer">
@@ -76,11 +77,5 @@ const handdleTab = function(tab){
       </div>
     </div>
     <MenuSection v-if="toggleMenu" :items="menuData"/>
-
-    
-
   </div>
-
-
-
 </template>
