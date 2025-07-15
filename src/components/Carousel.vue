@@ -32,7 +32,7 @@ import { carouselData } from '@/data/data'
           </div>
           <h2 class="min-h-[110px] text-2xl md:text-4xl font-bold leading-[1.5]">{{ item.title }}</h2>
         </div>
-        <img :src="item.img" class="d-block w-full aspect-video object-cover" alt="..." loading="lazy">
+        <img :src="item.img" class="d-block w-full aspect-video object-cover" alt="熱門文章" loading="lazy">
       </div>
     </div>
     
