@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#E86261] max-w-7xl m-auto">
+  <div class="bg-[#E86261] max-w-7xl m-auto pb-16">
     <div class="max-w-5xl m-auto">
       <div class="flex justify-between text-2xl font-bold text-white px-10 border-b-1 pt-10">
         <div class="py-4"><span class="text-sm">VOL.</span>30</div>
