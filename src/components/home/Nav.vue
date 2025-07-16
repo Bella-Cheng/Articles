@@ -2,6 +2,7 @@
 import MenuSection from '@/components/home/MenuSection.vue'
 import { articles, voice, magazine } from '@/data/data'
 import { ref, computed } from 'vue'
+import dayjs from 'dayjs'
 
 const menuTab = ref('')
 const toggleMenu = ref(false)
@@ -22,6 +23,10 @@ const handdleTab = function(tab){
   }
 }
 
+const month = dayjs().format('MMM')
+const date = dayjs().format('DD')
+
+
 </script>
 
 <template>
@@ -40,8 +45,8 @@ const handdleTab = function(tab){
           夜晚的秘密新浪潮 »
         </div>
         <div>
-          <span class="text-2xl font-bold">Jul.</span>
-          <span class="text-8xl font-bold">14</span>
+          <span class="text-2xl font-bold">{{ month }}.</span>
+          <span class="text-8xl font-bold">{{ date }}</span>
         </div>
       </div>
     </div>
