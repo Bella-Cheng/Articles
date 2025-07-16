@@ -1,5 +1,5 @@
 <script setup>
-import MenuSection from '@/components/MenuSection.vue'
+import MenuSection from '@/components/home/MenuSection.vue'
 import { articles, voice, magazine } from '@/data/data'
 import { ref, computed } from 'vue'
 
