@@ -18,6 +18,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         includePaths: ['node_modules'],
+        additionalData: `@import "bootstrap/scss/functions"; @import "bootstrap/scss/variables";`
       },
     },
   },

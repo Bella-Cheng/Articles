@@ -1,5 +1,3 @@
-import flowbite from 'flowbite/plugin'
-
 export default {
   content: [
     "./index.html",
