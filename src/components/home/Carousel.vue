@@ -3,7 +3,11 @@ import { carouselData } from '@/data/data'
 </script>
 
 <template>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide py-10 max-w-6xl m-auto">
+  <div 
+    id="carouselExampleDark" 
+    class="carousel carousel-dark slide py-10 max-w-6xl m-auto"
+    data-bs-ride="carousel"
+  >
 
     <div class="carousel-indicators">
       <button 
@@ -23,7 +27,7 @@ import { carouselData } from '@/data/data'
         v-for="( item, index ) in carouselData" 
         :key="index" 
         :class="['carousel-item', { active: index === 0 }]"
-        data-bs-interval="3000"
+        data-bs-interval="6000"
       >
 
         <div class="mb-4 text-left px-4">
