@@ -1,5 +1,5 @@
 import './main.css'
-import '@/assets/carousel.css'
+import '../src/assets/carousel.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
