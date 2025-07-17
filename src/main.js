@@ -1,5 +1,4 @@
 import './main.css'
-import 'flowbite'
 import '@/assets/bootstrap.scss'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
