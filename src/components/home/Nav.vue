@@ -50,7 +50,7 @@ const date = dayjs().format('DD')
       </div>
     </div>
 
-    <div class="flex justify-between border-b-1">
+    <div class="flex justify-between items-center border-b-1">
       <div class="flex">
         <ul class="flex py-2">
           <li class="cursor-pointer">人物</li>

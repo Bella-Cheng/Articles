@@ -5,7 +5,7 @@ import { carouselData } from '@/data/data'
 <template>
   <div 
     id="carouselExampleDark" 
-    class="carousel carousel-dark slide py-10 max-w-6xl m-auto"
+    class="carousel carousel-dark relative slide py-10 max-w-6xl m-auto items-center"
     data-bs-ride="carousel"
   >
 
@@ -22,7 +22,7 @@ import { carouselData } from '@/data/data'
       </button>
     </div>
 
-    <div class="carousel-inner">
+    <div class="carousel-inner min-h-[648px]">
       <div 
         v-for="( item, index ) in carouselData" 
         :key="index" 
@@ -36,15 +36,18 @@ import { carouselData } from '@/data/data'
           </div>
           <h2 class="min-h-[110px] text-2xl md:text-4xl font-bold leading-[1.5]">{{ item.title }}</h2>
         </div>
-        <img :src="item.img" class="d-block w-full aspect-video object-cover" alt="熱門文章" loading="lazy">
+        <div class="h-full relative">
+          <img :src="item.img" class="d-block w-full aspect-video object-cover" alt="熱門文章" loading="lazy">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
       </div>
     </div>
     
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
+
   </div>
 </template>

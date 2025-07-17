@@ -14,14 +14,6 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        includePaths: ['node_modules'],
-        additionalData: `@import "bootstrap/scss/functions"; @import "bootstrap/scss/variables";`
-      },
-    },
-  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
