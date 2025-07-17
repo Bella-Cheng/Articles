@@ -1,5 +1,5 @@
 import './main.css'
-// @source "../node_modules/flowbite"
+import 'flowbite'
 import '@/assets/bootstrap.scss'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
