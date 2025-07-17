@@ -26,11 +26,10 @@ const handdleTab = function(tab){
 const month = dayjs().format('MMM')
 const date = dayjs().format('DD')
 
-
 </script>
 
 <template>
-  <div class="max-w-7xl m-auto">
+  <div class="max-w-6xl m-auto">
 
     <div class="pt-10 border-b-2">
       <p class="pb-2">屬於我們時代的文化媒體</p>

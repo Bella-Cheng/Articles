@@ -3,7 +3,7 @@ import { carouselData } from '@/data/data'
 </script>
 
 <template>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide py-10 max-w-7xl m-auto">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide py-10 max-w-6xl m-auto">
 
     <div class="carousel-indicators">
       <button 
