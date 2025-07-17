@@ -15,11 +15,6 @@
         <p><a class="cursor-pointer hover:text-white" href="http://">關於我們</a> | <a class="cursor-pointer hover:text-white" href="http://">隱私政策</a></p><br />
         <p>106 台北市大安區建國南路一段 177 號 | (02) 2550 0065 | <a class="cursor-pointer hover:text-white" href="mailto:">dhp951320@gmail.com</a> | © VERSE All rights reserved. | vm2</p>
       </div>
-
-
-
-
     </div>
-
   </div>
 </template>
