@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from 'vue-router'
 import MainLayout from '../views/MainLayout.vue'
 import HomePage from '../views/HomePage.vue'
 import ShopCart from '../views/bag/ShopCart.vue'
+import Login from '../views/login/Login.vue'
 
 
 const routes = [
@@ -55,11 +56,11 @@ const routes = [
       //   name: '訂閱VERSE雜誌',
       //   component: subscription
       // },
-      // {
-      //   path: 'login',
-      //   name: '登入',
-      //   component: login
-      // },
+      {
+        path: 'login',
+        name: '登入',
+        component: Login
+      },
       // {
       //   path: 'register',
       //   name: '註冊',
