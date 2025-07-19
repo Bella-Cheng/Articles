@@ -1,5 +1,5 @@
 <script setup>
-import { carouselData } from '@/data/data'
+  import { carouselData } from '@/data/data'
 </script>
 
 <template>

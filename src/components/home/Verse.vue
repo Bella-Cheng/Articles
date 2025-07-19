@@ -1,8 +1,6 @@
 <script setup>
-import ArticleCard from '@/components/public/ArticleCard.vue';
-import { verseList } from '@/data/data'
-
-
+  import ArticleCard from '@/components/public/ArticleCard.vue';
+  import { verseList } from '@/data/data'
 </script>
 
 <template>
@@ -12,7 +10,7 @@ import { verseList } from '@/data/data'
       <div class="text-4xl font-bold py-8">
         {{ section.mainTitle }}
         <span class="text-2xl font-bold">{{ section.enMainTitle }}</span>
-      </div>
+      </div>，，，
 
       <div :class="[
         'flex gap-10 border-b border-gray-300 mb-10 pb-10',

@@ -16,10 +16,6 @@ import cow from '@/assets/cow.jpg'
 import earthquake from '@/assets/earthquake.jpg'
 import culture from '@/assets/culture.jpg'
 
-
-
-
-
 const articles = [
   {
     title: '最新文章 Latest Articles',

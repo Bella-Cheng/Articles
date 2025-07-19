@@ -1,18 +1,18 @@
 <script setup>
-import { computed } from 'vue';
+  import { computed } from 'vue';
 
-const props = defineProps({
-  tag : [String, Array],
-  img: String,
-  title : String,
-  desc: String,
-  url: String,
-})
+  const props = defineProps({
+    tag: [String, Array],
+    img: String,
+    title: String,
+    desc: { type: String, default: '' },
+    url: String,
+  })
 
-const tagsList = computed(() => {
-  return Array.isArray(props.tag)? props.tag : [ props.tag ]
+  const tagsList = computed(() => {
+    return Array.isArray(props.tag)? props.tag : [ props.tag ]
 
-})
+  })
 </script>
 
 <template>
